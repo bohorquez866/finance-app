@@ -1,11 +1,12 @@
 import AuthClerkSection from "@/components/AuthClerkSection";
+import AuthWrapper from "@/components/AuthWrapper";
 import LoginSideSection from "@/components/LoginSideSection";
 import { SignIn, ClerkLoaded, ClerkLoading } from "@clerk/nextjs";
 import { Loader2 } from "lucide-react";
 
 export default function SignInPage() {
   return (
-    <main className="min-h-screen grid grid-cols-1 lg:grid-cols-2">
+    <AuthWrapper>
       <AuthClerkSection
         title="Welcome Back!"
         description="Login or create an account"
@@ -13,6 +14,6 @@ export default function SignInPage() {
       />
 
       <LoginSideSection />
-    </main>
+    </AuthWrapper>
   );
 }
