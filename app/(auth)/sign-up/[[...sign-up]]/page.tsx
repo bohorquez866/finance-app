@@ -1,6 +1,6 @@
-import AuthClerkSection from "@/components/AuthClerkSection";
-import AuthWrapper from "@/components/AuthWrapper";
-import LoginSideSection from "@/components/LoginSideSection";
+import AuthClerkSection from "@/components/Auth/AuthClerkSection";
+import AuthWrapper from "@/components/Auth/AuthWrapper";
+import LoginSideSection from "@/components/Auth/LoginSideSection";
 import { SignUp } from "@clerk/nextjs";
 import React from "react";
 

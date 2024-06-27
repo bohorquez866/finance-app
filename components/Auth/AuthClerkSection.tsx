@@ -1,7 +1,5 @@
 import { ClerkLoaded, ClerkLoading, SignIn } from "@clerk/nextjs";
 import { Loader2 } from "lucide-react";
-import { title } from "process";
-import { FunctionComponent, ReactElement } from "react";
 
 interface Props {
   ClerkModule: React.ElementType;

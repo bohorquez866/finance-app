@@ -1,8 +1,7 @@
-import AuthClerkSection from "@/components/AuthClerkSection";
-import AuthWrapper from "@/components/AuthWrapper";
-import LoginSideSection from "@/components/LoginSideSection";
-import { SignIn, ClerkLoaded, ClerkLoading } from "@clerk/nextjs";
-import { Loader2 } from "lucide-react";
+import AuthClerkSection from "@/components/Auth/AuthClerkSection";
+import AuthWrapper from "@/components/Auth/AuthWrapper";
+import LoginSideSection from "@/components/Auth/LoginSideSection";
+import { SignIn } from "@clerk/nextjs";
 
 export default function SignInPage() {
   return (
